@@ -22,7 +22,7 @@ spec:
           value: http://users-api:8083
         - name: ZIPKIN_URL
           value: http://zipkin:9411/api/v2/spans          
-        image: auth-api
+        image: slalomdojo/auth-api
         name: auth-api
         ports:
         - containerPort: 8081
